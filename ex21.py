@@ -12,7 +12,7 @@ def multiply (a,b):
 
 def divide (a,b):
     print('Деление %d / %d' %(a, b))
-    return a /b
+    return a // b
 
 print('Давайте выполним несколько вычислений с помощью функций!')
 
@@ -21,7 +21,7 @@ height = subtract(190, 4)
 weight = multiply(35, 2)
 iq = divide(220, 2)
 
-print( "Возраст: %d, рост: %d, вес: %d, IQ% %d" % (age, height, weight, iq)) #тут выдает ошибку, хз почему
+print( "Возраст: %d, рост: %d, вес: %d, IQ %d" % (age, height, weight, iq)) #тут выдает ошибку, хз почему
 
 print('Это головоломка \n')
 
