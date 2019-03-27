@@ -8,7 +8,7 @@ more_staff = ['day', 'Night', 'Song', 'Frisbee', 'Corn', 'Banana', 'Girl','Boy']
 print(more_staff)
 
 while len(stuff) != 10:
-    next_one = more_staff.pop() # берем последний элемент в нашем списке
+    next_one = more_staff.pop() # берем последний элемент в списке
     print('Добавляем:', next_one)# добавляем последний элемент, взятый со списка
     stuff.append(next_one) # добавляет элемент в конец списка
     print(more_staff)
