@@ -196,3 +196,6 @@ def next_scene(self, start_name): val = Map.scenes.get (scene_name)
 def opening_scene(self):
     return self.next_scene (self.start_scene)
 
+a_map = Map('central_corridor')
+a_game = Engine(a_map)
+a_game.play()
