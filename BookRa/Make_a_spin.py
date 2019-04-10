@@ -22,10 +22,10 @@ driver.implicitly_wait(10)
 iframe = driver.find_elements_by_tag_name('iframe')[2]
 driver.switch_to_frame(iframe)
 
-d = driver.find_element_by_xpath('(.//*[normalize-space(text()) and normalize-space(.)="В избранное"])[2]/following::span[1]')
+d = driver.find_element_by_xpath('/html/body/ui-view/default/div/div[2]/ui-view/lobby/div/div[2]/categories/ui-view/games/div/ul/li[1]')
 d.click()
-iframe_slot = driver.find_elements_by_tag_name('iframe')[1]
-driver.switch_to_frame(iframe_slot)
+# iframe_slot = driver.find_elements_by_tag_name('iframe')[1]
+# driver.switch_to_frame(iframe_slot)
 #
 # d = driver.find_element_by_xpath('/html/body/ui-view/default/div/div[2]/ui-view/lobby/div/div[2]/categories/ui-view/games/div/ul/li[5]/div/div/a[1]/span')
 # d.click()
